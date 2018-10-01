@@ -58,30 +58,129 @@ vagrant plugin installであとから機能を追加できる
 - vagrantの初期化(vagrant init)
 - Vagrantfileの編集
 - 仮想マシン起動(vagrant up)
-- sshログイン(vagrant ssh)
+- 仮想マシンの状態を確認(vagrant status)
+- 仮想マシンにsshログイン(vagrant ssh)
+- 仮想マシン停止(vagrant halt)
 
 
 
-## box追加
+### box追加
 [https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)でインストールするBoxを検索
 
 ![vagrant.cloud](img/006_vagrant-00.png)
 
+検索したBoxを追加する
 
 ```bash
 $ vagrant box add [name] [url or path]
 ```
 
-## box一覧を確認
+例 (bento系はChef社が提供しているやつ 安心して使って!)
+```bash
+$ vagrant box add bento/ubuntu-18.04
+```
+
+
+#### box一覧を確認
 
 ```bash
 $ vagrant box list
 
-centos64
-centos66
-:
+bento/centos-6.8   (virtualbox, 2.3.4)
+bento/centos-7.3   (virtualbox, 201708.22.0)
+bento/ubuntu-18.04 (virtualbox, 201808.24.0)
+centos64           (virtualbox, 0)
+centos70           (virtualbox, 0)
+ubuntu16           (virtualbox, 0)
 ```
 
+
+### vagrantの初期化
+Boxを使ってVagrantfileを作成する
+
+```bash
+$ vagrant init [box名:なくてもいい]
+```
+
+カレントディレクトリにVagrantfileができる
+
+```bash
+$ tree
+
+./
+	`--- Vagrantfile
+```
+
+例
+```bash
+$ vagrant init bento/ubuntu-18.04
+
+A `Vagrantfile` has been placed in this directory. You are now
+ready to `vagrant up` your first virtual environment! Please read
+the comments in the Vagrantfile as well as documentation on
+`vagrantup.com` for more information on using Vagrant.
+```
+
+
+### Vagrantfileの編集
+あとで詳しく
+
+
+
+### 仮想マシン起動
+Vagrantfileのあるディレクトリで、以下のコマンドを実行するとVagrantが起動する
+
+Vagrant起動=VirtualBoxの仮想マシン起動
+
+```bash
+$ vagrant up
+```
+
+### 仮想マシンの状態を確認
+Vagrantの起動状態を以下のコマンドで確認できる
+
+```bash
+$ vagrant status
+```
+
+起動している場合
+```bash
+default		running (virtualbox)
+```
+
+停止している場合
+```bash
+default		poweroff (virtualbox)
+```
+
+
+### 仮想マシンにsshログイン
+sshログインできる
+
+```bash
+$ vagrant ssh
+```
+
+user:vagrant, pass:vagrant
+
+user:root, pass:vagrant
+
+
+### 仮想マシン停止(vagrant halt)
+haltで停止できる
+
+```bash
+$ vagrant halt
+```
+
+
+## ローカルに作成されるファイルの場所
+
+### vagrant系
+c:/Users/[ユーザー名]/.vagrant.d/boxes/
+
+### virtualbox系
+c:/Users/[ユーザー名]/VirtualBox VMs/
 
 
 ## 自前でboxを用意する方法
@@ -92,3 +191,6 @@ packer hashicopeが提供しているツール
 ### 手順
 まだやりかたわかってない
 
+
+## refs
+- [0](https://qiita.com/ozawan/items/160728f7c6b10c73b97e)
