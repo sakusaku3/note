@@ -13,6 +13,9 @@
 |config.vm.network|仮想マシンのネットワーク設定|
 
 
+## publicネットワーク
+https://www.vagrantup.com/docs/networking/public_network.html
+
 ## provisioning
 
 
