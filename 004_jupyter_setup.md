@@ -109,6 +109,18 @@ ctrl + c
 [ref0](https://qiita.com/syo_cream/items/05553b41277523a131fd)
 [ref1](https://qiita.com/joemphilips/items/de5d12723b9b88b5b090)
 
+
+## extension
+jupyterには機能を追加できる
+公開されているリポジトリ(公式ではない)
+
+[https://github.com/ipython-contrib/IPython-notebook-extensions](https://github.com/ipython-contrib/IPython-notebook-extensions)
+
+
+[インストール方法](https://qiita.com/sasaki77/items/30a19d2be7d94116b237)
+
+
+
 ---
 
 ## 各インストール
