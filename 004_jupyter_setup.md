@@ -77,7 +77,7 @@ c = get_config()
 # notebook上でplotを表示できるようにする
 c.IPKernelApp.pylab = 'inline'
 # 全てのIPから接続を許可
-c.NotebookApp.ip = '*'
+c.NotebookApp.ip = '0.0.0.0'
 # IPython notebookのログインパスワード
 c.NotebookApp.password = 'sha1:[ハッシュ化されたパスワード]'
 # 起動時にブラウザを起動させるかの設定
