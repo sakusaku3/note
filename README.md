@@ -27,3 +27,5 @@
 - [022](022_jupyter_csharp.md)
 - [023](023_window_event.md)
 - [024](024_plantuml.md)
+- [025](025_gitlab_api.md)
+- [026](026_powershell.md)
