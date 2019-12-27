@@ -1,4 +1,4 @@
-# vagrantパブリックネットワーク設定
+# python tips
 
 ## コマンドラインパーサー
 - sys.argv
