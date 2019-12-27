@@ -1,6 +1,6 @@
-# powershell
+# PowerShell
 
-## powershell core インストール
+## PowerShell core インストール
 - [「PowerShell Core」をざっくり理解する。](https://4thsight.xyz/8638)
 
 
@@ -11,3 +11,6 @@
 ## 配色
 - [10分でWindows PowerShellの配色とフォントを変更して”使える”ツールに変貌させる](https://mimimopu.com/windows-powershell-color-font-change/)
 - [PowerShell の配色とフォントを変更する](https://qiita.com/fardoc/items/25c6c4fdb36e9c68de2a)
+
+## コマンドレットエイリアス
+- [コマンドレットのエイリアスを調べてみた](https://mseeeen.msen.jp/research-powershell-command-alias/)
