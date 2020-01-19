@@ -40,6 +40,9 @@
 - [ドッキングウィンドウ](014_docking_window.md)
 - [ウィンドウ起動～終了時までのイベント](023_window_event.md)
 
+## c#
+- [学習コンテンツ](028_csharp_learning_contents.md)
+
 ## powershell
 - [powershell tips](026_powershell.md)
 
