@@ -64,4 +64,5 @@
 - [ALMinium ディレクトリ公開](000_public_directory.md)
 - [jupyter kernels](022_jupyter_csharp.md)
 - [PlantUML](024_plantuml.md)
-- [勉強資料のまとめルール](/029_learning/)
+- [勉強資料のまとめルール](/029_learning/README.md)
+- [読書・セミナーを活かす](030_make_use_of_reading_and_meetup.md)
