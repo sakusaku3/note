@@ -67,3 +67,6 @@
 - [PlantUML](024_plantuml.md)
 - [勉強資料のまとめルール](/029_learning/README.md)
 - [読書・セミナーを活かす](030_make_use_of_reading_and_meetup.md)
+
+## AI
+- [AI Cli](034_ai_cli.md)
