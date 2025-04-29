@@ -1,3 +1,16 @@
 # AI-Cli
 
+
+## Aider
+
 - [Vimmer にお勧めしたい AI エージェント「Aider」](https://zenn.dev/acro5piano/articles/1d900a93c608e1)
+
+
+## goose
+
+- [公式](https://block.github.io/goose/)
+- [ローカル環境で動作する次世代AIエージェント「Goose」を解説](https://zenn.dev/aimasaou/articles/b5e831d200c2e2)
+- [Rust製MCP対応AIエージェント『Goose』の技術概要](https://laiso.hatenablog.com/entry/2025/02/05/210854)
+- [ローカル環境で動作する次世代AIエージェント「Goose」のインストールガイド&使用感](https://qiita.com/kei1-dev/items/5bca289fe5d56352ca7b)
+
+

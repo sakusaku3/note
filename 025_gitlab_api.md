@@ -9,3 +9,7 @@
 - [GitLab API | gitlab gem で Issueの一覧を取得する](https://qiita.com/tbpgr/items/73fc5a793277e6216dae)
 - [退屈なことは GitLab API にやらせよう](http://labs.septeni.co.jp/entry/2019/03/05/120000)
 - [GitLab API](https://qiita.com/kenji-yokoi/items/b29391e654ccba8ca297)
+
+
+## git pushで403エラー
+- [【Github】Fine-grained personal access tokensで開発者がpushするときのtoken取得手順とそのスコープ](https://qiita.com/ko-he-8/items/29d72226b93065c676ff)
