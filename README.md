@@ -1,9 +1,13 @@
 # note
 [pages](https://sakusaku3.github.io/note/)
 
-# Contents
+## AI
+- [AI Cli](20250506153606.md)
+- [Cline](20250506152552.md)
+- [MCP](20250506153423.md)
+- [読書・セミナーを活かす](20250506153731.md)
+- [PowerAutomate](20250506153928.md)
 
-## Git
 
 ## Linux
 - [環境変数](001_linux_path.md)
@@ -66,7 +70,3 @@
 - [jupyter kernels](022_jupyter_csharp.md)
 - [PlantUML](024_plantuml.md)
 - [勉強資料のまとめルール](/029_learning/README.md)
-- [読書・セミナーを活かす](030_make_use_of_reading_and_meetup.md)
-
-## AI
-- [AI Cli](034_ai_cli.md)
