@@ -11,6 +11,8 @@
 - [Cline-UnitTest](20250506204506.md)
 - [VSCode設定](20250510154331.md)
 - [Git設定](20250510165331.md)
+- [.clinerules](20250510170913.md)
+- [ollama](20250511163711.md)
 
 ## Linux
 - [環境変数](001_linux_path.md)
