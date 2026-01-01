@@ -1,0 +1,4 @@
+- 本: 思考のエンジン
+- neovimで標準の折りたたみ機能を使う
+  - https://qiita.com/reisuta/items/ebd71e9cade3a858d4f9
+  - 使いたい時だけ使えるように、luaスクリプトを用意する
